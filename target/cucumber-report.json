@@ -1,0 +1,497 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Collect details about book",
+        "description": "",
+        "id": "amazon-features;collect-details-about-book;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24105262420,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Amazon webpage",
+            "match": {
+              "location": "AlationSteps.userOpenedPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136296273,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "select the category Books",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 20
+                }
+              ],
+              "location": "AlationSteps.userSelectCategory(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6567747701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter search text data catalog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data catalog",
+                  "offset": 18
+                }
+              ],
+              "location": "AlationSteps.userEnterSearchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429314631,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "gather details about 1 in search list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "AlationSteps.gatherDeatilsaboutProduct(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 749898,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display gathered details about product",
+            "match": {
+              "location": "AlationSteps.displayGatheredDetails()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Collect details about book",
+        "description": "",
+        "id": "amazon-features;collect-details-about-book;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9825526347,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Amazon webpage",
+            "match": {
+              "location": "AlationSteps.userOpenedPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160665548,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "select the category Books",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 20
+                }
+              ],
+              "location": "AlationSteps.userSelectCategory(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10178108192,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter search text data catalog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data catalog",
+                  "offset": 18
+                }
+              ],
+              "location": "AlationSteps.userEnterSearchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436774948,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "gather details about 2 in search list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "AlationSteps.gatherDeatilsaboutProduct(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855266,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display gathered details about product",
+            "match": {
+              "location": "AlationSteps.displayGatheredDetails()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Collect details about book",
+        "description": "",
+        "id": "amazon-features;collect-details-about-book;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12320101907,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Amazon webpage",
+            "match": {
+              "location": "AlationSteps.userOpenedPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156210294,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "select the category Books",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 20
+                }
+              ],
+              "location": "AlationSteps.userSelectCategory(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7638995836,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter search text data catalog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data catalog",
+                  "offset": 18
+                }
+              ],
+              "location": "AlationSteps.userEnterSearchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307028990,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "gather details about 3 in search list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "AlationSteps.gatherDeatilsaboutProduct(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1706428,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display gathered details about product",
+            "match": {
+              "location": "AlationSteps.displayGatheredDetails()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Collect details about book",
+        "description": "",
+        "id": "amazon-features;collect-details-about-book;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6858841367,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Amazon webpage",
+            "match": {
+              "location": "AlationSteps.userOpenedPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143706642,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "select the category Books",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 20
+                }
+              ],
+              "location": "AlationSteps.userSelectCategory(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17531297274,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter search text data catalog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data catalog",
+                  "offset": 18
+                }
+              ],
+              "location": "AlationSteps.userEnterSearchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 443338946,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "gather details about 4 in search list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 21
+                }
+              ],
+              "location": "AlationSteps.gatherDeatilsaboutProduct(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 501528,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display gathered details about product",
+            "match": {
+              "location": "AlationSteps.displayGatheredDetails()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Collect details about book",
+        "description": "",
+        "id": "amazon-features;collect-details-about-book;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8367731006,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Amazon webpage",
+            "match": {
+              "location": "AlationSteps.userOpenedPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118031546,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "select the category Books",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 20
+                }
+              ],
+              "location": "AlationSteps.userSelectCategory(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2909875453,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter search text data catalog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data catalog",
+                  "offset": 18
+                }
+              ],
+              "location": "AlationSteps.userEnterSearchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297177348,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "gather details about 5 in search list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 21
+                }
+              ],
+              "location": "AlationSteps.gatherDeatilsaboutProduct(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15020188,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display gathered details about product",
+            "match": {
+              "location": "AlationSteps.displayGatheredDetails()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon features",
+    "description": "",
+    "id": "amazon-features",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/amazon.feature"
+  }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="394" started-at="2018-08-01T12:20:56Z" finished-at="2018-08-01T12:20:57Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.AlationTest@1ce92674]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="394" started-at="2018-08-01T12:20:56Z" finished-at="2018-08-01T12:20:57Z">
+      <class name="test.AlationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.AlationTest@1ce92674]" name="setUp" is-config="true" duration-ms="13" started-at="2018-08-01T17:50:56Z" finished-at="2018-08-01T17:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.AlationTest@1ce92674]" name="setUpClass" is-config="true" duration-ms="195" started-at="2018-08-01T17:50:56Z" finished-at="2018-08-01T17:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.AlationTest@1ce92674]" name="tearDownClass" is-config="true" duration-ms="184" started-at="2018-08-01T17:50:57Z" finished-at="2018-08-01T17:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.AlationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

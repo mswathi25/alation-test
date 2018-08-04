@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testng-results failed="0" passed="5" skipped="0" total="5">
+<suite duration-ms="108948" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="108948" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="Amazon features">
+<test-method duration-ms="31239" finished-at="2018-08-04T11:40:52Z" name="Collect details about book" started-at="2018-08-04T11:40:21Z" status="PASS"/>
+<test-method duration-ms="20601" finished-at="2018-08-04T11:41:13Z" name="Collect details about book_2" started-at="2018-08-04T11:40:52Z" status="PASS"/>
+<test-method duration-ms="20424" finished-at="2018-08-04T11:41:33Z" name="Collect details about book_3" started-at="2018-08-04T11:41:13Z" status="PASS"/>
+<test-method duration-ms="24977" finished-at="2018-08-04T11:41:58Z" name="Collect details about book_4" started-at="2018-08-04T11:41:33Z" status="PASS"/>
+<test-method duration-ms="11707" finished-at="2018-08-04T11:42:10Z" name="Collect details about book_5" started-at="2018-08-04T11:41:58Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>
